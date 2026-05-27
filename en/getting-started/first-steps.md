@@ -4,22 +4,22 @@ icon: shoe-prints
 
 # First steps
 
-This section is intended to introduce the main functions of NebulaAuth. Here you will learn how to receive login codes, as well as confirm trades and logins on other devices.
+This section introduces the main NebulaAuth features. You will learn how to get login codes, confirm trades, and approve logins on other devices.
 
 ## 🔐 Getting a login code
 
-Logging in with a Steam Guard code is the standard two-factor authentication in Steam. The code is generated based on the secrets stored in the maFile and updates every 30 seconds.
+Logging in with a Steam Guard code is Steam's standard two-factor authentication flow. The code is generated from the secrets stored in the maFile and refreshes every 30 seconds.
 
 ![Steam Guard code](../../.gitbook/assets/steam-guard-code.png)
 
 {% hint style="info" %}
-An internet connection is not required to generate codes
+You do not need an internet connection to generate codes.
 {% endhint %}
 
-Getting a code:
+To get a code:
 
 1. Select the account in the list on the left
-2. The Guard code will be displayed on the right side of the window
+2. The Guard code appears on the right side of the window
 3. Click the code to copy it
 
 The code updates every 30 seconds. The indicator under the code shows the time until the next update.
@@ -28,12 +28,12 @@ The code updates every 30 seconds. The indicator under the code shows the time u
 
 ### 🔁 Confirming trades and sales
 
-Confirmations appear **only after an action** that requires them, for example selling an item on the market or sending a trade.
+Confirmations appear **only after an action** that requires them, such as selling an item on the Market or sending a trade.
 
-1. Perform the action in Steam, trade, sale, and so on
+1. Perform the action in Steam, such as a trade or sale
 2. Select the account in NebulaAuth
 3. Click **Load confirmations**
-4. Confirmation cards will appear below
+4. Confirmation cards appear below
 5. Click ✔️ (**Confirm**) or ✖️ (**Reject**)
 
 ![alt text](../../.gitbook/assets/confirmations.png)
@@ -46,21 +46,21 @@ If you are logging into Steam from a new computer or browser:
 2. Open NebulaAuth
 3. Select the account
 4. Click **Confirm login**
-5. Return to the browser or Steam application, authentication will be completed
+5. Return to the browser or Steam application; authentication will complete automatically
 
 {% hint style="info" %}
-The **"Confirm login"** button only works for one login at a time. If multiple login attempts are detected, the request will be rejected. This does not necessarily mean someone is trying to hack your account, most likely there were several login attempts in a short period of time.
+The **"Confirm login"** button only works with one login request at a time. If multiple login attempts are detected, the request will be rejected. This does not necessarily mean someone is trying to access your account; it usually means several login attempts happened within a short period.
 {% endhint %}
 
 ## 🚀 What's next?
 
-Now you know the basics of working with NebulaAuth.
+You now know the basics of working with NebulaAuth.
 
-We recommend studying further:
+Next, we recommend reading:
 
 * [proxy](../features/proxy/ "mention")
 * [auto-confirmations.md](../features/auto-confirmations.md "mention")
 * [groups.md](../features/groups.md "mention")
 * [settings](../features/settings/ "mention")
 
-If you have questions, take a look at the [solving-problems.md](../support/solving-problems.md "mention") section or ask them in our [Telegram community](https://t.me/nebulaauth_chat).
+If you have questions, check the [solving-problems.md](../support/solving-problems.md "mention") section or ask in our [Telegram community](https://t.me/nebulaauth_chat).

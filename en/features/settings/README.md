@@ -6,7 +6,7 @@ icon: gears
 
 This section contains the NebulaAuth settings.
 
-You can find the settings by opening: Menu **→ Settings**.
+Open them from Menu **→ Settings**.
 
 ### Sections
 
@@ -22,7 +22,7 @@ You can find the settings by opening: Menu **→ Settings**.
 
 #### Where settings are saved
 
-NebulaAuth stores settings in the `settings.json` file next to the program.
+NebulaAuth stores settings in the `settings.json` file next to the application.
 
-* the file is saved automatically when parameters change
+* the file is saved automatically when settings change
 * if you delete `settings.json`, a new file with default settings will be created on the next launch

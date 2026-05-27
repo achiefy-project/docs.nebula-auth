@@ -4,7 +4,7 @@ hidden: true
 
 # Advanced settings (WIP)
 
-This section contains parameters that directly affect proxies and auto-confirmations.
+This section contains settings that directly affect proxies and auto-confirmations.
 
 ## Proxy display settings
 
@@ -13,7 +13,7 @@ Parameters:
 * `ProxyManagerDisplayProtocol`
 * `ProxyManagerDisplayCredentials`
 
-They control only the display in the proxy manager and do not change the network logic itself.
+They only control how proxies are displayed in the proxy manager and do not change the network logic.
 
 ## Auto-confirmation parameters
 
@@ -24,12 +24,12 @@ They control only the display in the proxy manager and do not change the network
 
 ### MaacErrorThreshold
 
-* after how much time of continuous errors the account is moved to the error status
+* how long continuous errors must last before the account moves to the error status
 * default: 3 hours
 
 ### MaacRetryInterval
 
-* retry interval after an error in warning state
+* retry interval after an error while the account is in warning state
 * default: 15 minutes
 
 ## How error logic is applied
@@ -37,12 +37,12 @@ They control only the display in the proxy manager and do not change the network
 MAAC uses statuses:
 
 * `Ok` — everything works
-* `Warning` — there is an error, but retries will occur through `MaacRetryInterval`
+* `Warning` — there is an error, but retries will continue using `MaacRetryInterval`
 * `Error` — the error lasts longer than `MaacErrorThreshold`
 
 When the problem disappears, the status returns to `Ok`.
 
-Select an account in the list and look at the auto-confirmation indicator in the right panel:
+Select an account in the list and check the auto-confirmation indicator in the right panel:
 
 * **Green** — OK
 * **Yellow** — Warning
@@ -50,7 +50,7 @@ Select an account in the list and look at the auto-confirmation indicator in the
 
 **Do MAAC settings affect manual confirmations?**
 
-No, MAAC settings affect only **automatic** confirmations. Manual confirmations, through the "Load confirmations" button, work independently.
+No, MAAC settings affect only **automatic** confirmations. Manual confirmations through the "Load confirmations" button work independently.
 
 **Can I configure different intervals for different accounts?**
 

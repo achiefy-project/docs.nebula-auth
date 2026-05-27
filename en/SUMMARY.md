@@ -38,4 +38,4 @@
 ## ❓ Help <a href="#support" id="support"></a>
 
 * [Troubleshooting](support/solving-problems.md)
-* [Linux and MacOS support](support/unix-support.md)
+* [Linux and macOS support](support/unix-support.md)

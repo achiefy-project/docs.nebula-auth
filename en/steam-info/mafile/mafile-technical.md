@@ -12,14 +12,14 @@ This article is intended for advanced users.
 
 ### Basic Steam Guard fields
 
-maFile is a JSON file containing Steam Guard data.
+A maFile is a JSON file that contains Steam Guard data.
 
 Main fields:
 
 * `shared_secret`\
-  Used to generate login codes, Steam Guard
+  Used to generate Steam Guard login codes
 * `identity_secret`\
-  Used to confirm actions, trades, sales
+  Used to confirm actions, trades, and sales
 * `revocation_code`\
   Code for removing Steam Guard from the account
 * `account_name`\
@@ -41,28 +41,28 @@ The maFile may contain Steam service fields:
 * `secret_1`
 * `uri`
 
-These fields are either not used in operation, or their purpose is unknown.\
-In NebulaAuth, they are not used and do not affect account operation.
+These fields are either not used during normal operation, or their purpose is unknown.\
+NebulaAuth does not use them, and they do not affect account operation.
 
 ***
 
 ### Session
 
-The maFile may store the account session, authorization data.
+The maFile may store the account session and authorization data.
 
 NebulaAuth uses a modern session format, similar to the official Steam application:
 
-* `access_token` — used to perform requests
+* `access_token` — used to make requests
 * `refresh_token` — used to extend the session without logging in again
 
 If `access_token` is outdated, NebulaAuth automatically tries to refresh it through `refresh_token`.
 
-If this is not possible, for example the refresh token has expired, logging into the account again will be required.
+If this is not possible, for example because the refresh token has expired, you will need to log into the account again.
 
 {% hint style="info" %}
-Steam Desktop Authenticator, SDA, uses an outdated format, an encoded session token.
+Steam Desktop Authenticator, SDA, uses an older format: an encoded session token.
 
-Because of this, when importing a maFile from SDA, the session cannot be used, and you need to log into the account once.
+Because of this, sessions imported from SDA cannot be reused, and you need to log into each account once.
 {% endhint %}
 
 ### NebulaAuth fields
@@ -88,7 +88,7 @@ These fields are used only inside NebulaAuth and are not part of the Steam Guard
 
 Technically, yes.
 
-But it is not recommended, an error in the file structure can make it unusable.
+But it is not recommended, because an error in the file structure can make the file unusable.
 
 It is better to use NebulaAuth tools.
 

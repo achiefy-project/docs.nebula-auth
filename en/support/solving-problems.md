@@ -4,7 +4,7 @@ icon: lightbulb-exclamation-on
 
 # Troubleshooting
 
-Typical errors and ways to solve them are listed below.
+Common errors and ways to fix them are listed below.
 
 ***
 
@@ -13,7 +13,7 @@ Typical errors and ways to solve them are listed below.
 * **"An existing connection was forcibly closed by the remote host"**
 * **"No connection could be made because the target machine actively refused it"**
 
-Usually related to:
+Usually caused by:
 
 * proxy problems
 * unstable internet connection
@@ -22,39 +22,39 @@ Solution:
 
 * check the proxy
 * try another proxy
-* make sure the internet works stably
+* make sure your internet connection is stable
 
 ***
 
 ### Response ended prematurely
 
-If the error occurs constantly:
+If the error happens constantly:
 
-* most likely a SOCKS proxy is used without specifying the protocol\
-  for example specify: `socks5://IP:PORT`
+* most likely, a SOCKS proxy is being used without specifying the protocol\
+  for example, use: `socks5://IP:PORT`
 
 If it occurs occasionally:
 
-* these are temporary connection drops on Steam's side
+* it is likely caused by temporary connection drops on Steam's side
 
 ***
 
-### Accounts disappeared, RCode, password do not work
+### Accounts disappeared, RCode or password does not work
 
 If you downloaded NebulaAuth from the official source:
 
 * the application does not modify account data
-* the problem is on the user side
+* the issue is outside the application
 
-It is recommended to contact Steam Support.
+We recommend contacting Steam Support.
 
 ***
 
-### Steam Guard code does not fit
+### Steam Guard code does not work
 
 Reason:
 
-* time desynchronization on the PC
+* the time on the PC is out of sync
 
 Solution:
 
@@ -69,18 +69,18 @@ This is a known Steam issue.
 
 Solution:
 
-* use the instructions at the top of the linking window
+* follow the instructions at the top of the linking window
 * or see the section: [Linking → Problem solution](../getting-started/add-account/link-new.md#-solution)
 
 ***
 
 ### "Failed to synchronize time with Steam"
 
-An error that occurs when the application starts
+This error can occur when the application starts.
 
 Reasons:
 
-* maintenance work on Steam's side
+* maintenance on Steam's side
 * connection problems
 
 Solution:

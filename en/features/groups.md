@@ -6,13 +6,13 @@ icon: folders
 
 ![](../../.gitbook/assets/mw-groups.png)
 
-Groups help combine accounts by purpose and work with them faster in the list.
+Groups let you organize accounts by purpose and work with them faster in the list.
 
 Using groups you can:
 
 * filter accounts
 * perform bulk actions
-* find the required accounts faster
+* find the accounts you need faster
 
 One account can belong to only one group.
 
@@ -59,4 +59,4 @@ To delete a group, remove all accounts from it. After that, the group will disap
 
 The group is stored inside the **maFile**, just like the proxy.
 
-This means that when transferring the file between different NebulaAuth instances, the group will be preserved together with the account.
+This means that when you move the file between different NebulaAuth instances, the group is preserved with the account.

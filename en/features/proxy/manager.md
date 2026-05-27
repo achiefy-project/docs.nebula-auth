@@ -1,6 +1,6 @@
 # Proxy manager
 
-The proxy manager opens through Menu **→ Proxy manager**
+Open the proxy manager from Menu **→ Proxy manager**.
 
 ![Proxy manager](../../../.gitbook/assets/proxy-manager.png)
 
@@ -13,7 +13,7 @@ In the proxy manager you can:
 * add proxies
 * delete proxies
 * assign a default proxy
-* copy a proxy, fully or only the address
+* copy a full proxy entry or only its address
 
 ***
 
@@ -45,9 +45,9 @@ When adding a proxy, you can specify an ID in curly braces:
 IP:PORT:USER:PASS{0}
 ```
 
-The ID is used for convenient proxy management, it lets you quickly identify a proxy by number.
+The ID makes proxy management easier by letting you quickly identify a proxy by number.
 
-All lines must contain an ID and be unique. If the specified ID already exists, the corresponding proxy will be **overwritten**.
+All lines must contain a unique ID. If the specified ID already exists, the corresponding proxy will be **overwritten**.
 
 ***
 
@@ -55,20 +55,20 @@ All lines must contain an ID and be unique. If the specified ID already exists, 
 
 You can assign a default proxy.
 
-It is used as a fallback option: if an account does not have its own proxy assigned, requests will be performed through it. If neither an account proxy nor a default proxy is set, requests go directly.
+It is used as a fallback: if an account does not have its own proxy assigned, requests go through the default proxy. If neither an account proxy nor a default proxy is set, requests are sent directly.
 
 ```
 account proxy → default proxy → direct
 ```
 
-The default proxy is needed in cases when you want to control network requests and avoid operating without a proxy.
+The default proxy is useful when you want to control network requests and avoid working without a proxy.
 
-If you delete the proxy assigned as the default, the application will stop using it and will work directly, if accounts do not have their own proxies.
+If you delete the proxy assigned as the default, the application stops using it and works directly for accounts that do not have their own proxies.
 
 {% hint style="info" %}
-If you need to completely exclude direct connections, you can specify a deliberately non-working proxy, for example `0.0.0.0:5555`.
+If you need to completely prevent direct connections, you can specify a deliberately non-working proxy, for example `0.0.0.0:5555`.
 
-In this case, accounts with an assigned proxy will work as usual, while the others will not be able to perform requests directly.
+In this case, accounts with an assigned proxy will work as usual, while the others will not be able to send requests directly.
 {% endhint %}
 
 ***
@@ -81,7 +81,7 @@ In this case, accounts with an assigned proxy will work as usual, while the othe
 
 The proxy is not deleted from the maFile.
 
-The account will keep the binding, but when selecting this account, a red icon "Using proxy from maFile" will be displayed. To completely unbind the proxy, you need to remove the binding from the account itself.
+The account keeps the attachment, but when you select this account, a red "Using proxy from maFile" icon is displayed. To fully unattach the proxy, remove the attachment from the account itself.
 
 </details>
 
@@ -89,7 +89,7 @@ The account will keep the binding, but when selecting this account, a red icon "
 
 <summary><strong>Where are proxies stored?</strong></summary>
 
-Proxies from the manager are stored in the `proxies.json` file in the root of the application folder. The proxy binding to the account is stored in that account's maFile.
+Proxies from the manager are stored in the `proxies.json` file in the root of the application folder. The proxy attachment to the account is stored in that account's maFile.
 
 </details>
 
@@ -120,7 +120,7 @@ There is no direct export, but you can easily copy proxies from the manager:
 
 <summary><strong>Can I edit proxies?</strong></summary>
 
-There is no direct editing, but you can easily overwrite a proxy using the add function, specifying the same ID
+There is no direct editing, but you can overwrite a proxy by adding a new entry with the same ID.
 
 </details>
 
@@ -136,7 +136,7 @@ You can add any number of proxies.
 
 ***
 
-In the next section, we will look at how to use the added proxies when working with accounts
+In the next section, we will look at how to use added proxies when working with accounts.
 
 {% content-ref url="usage.md" %}
 [usage.md](usage.md)

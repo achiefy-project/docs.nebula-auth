@@ -4,7 +4,7 @@ icon: lock
 
 # Saving passwords
 
-NebulaAuth lets you save account passwords to automatically restore the session without your involvement. This feature also allows you to quickly copy the password using the account context menu, see [Context menu](../../getting-started/interface.md#account-context-menu).
+NebulaAuth lets you save account passwords so it can restore sessions automatically without your involvement. This feature also lets you quickly copy a password from the account context menu; see [Context menu](../../getting-started/interface.md#account-context-menu).
 
 ***
 
@@ -26,13 +26,13 @@ If password saving is enabled:
 
 Passwords are not stored in plain text.
 
-An **encryption password** is used to protect them, which is set in NebulaAuth. See [Security settings](../settings/main.md#encryption-password)
+An **encryption password**, set in NebulaAuth, is used to protect them. See [Security settings](../settings/main.md#encryption-password)
 
 * the account password is stored in encrypted form
 * the encryption password is not stored on disk
 * after restart, it must be entered again
 
-If you forget the encryption password, it is impossible to restore the saved passwords. This will not affect how the accounts work, but automatic login will not work, and you will need to assign passwords again for each account.
+If you forget the encryption password, saved passwords cannot be restored. This does not affect the accounts themselves, but automatic login will stop working, and you will need to assign passwords again for each account.
 
 ***
 
@@ -64,14 +64,14 @@ SteamID:password
 1. Open Menu → Other → Set passwords
 2. Enter the encryption password if it is not set yet
 3. Paste the list of lines
-4. Confirm the application
+4. Confirm the changes
 
 The format must be one of the following:
 
 * `login:password`
 * `SteamID:password`
 
-After applying, you will see the result with the number of successfully assigned passwords.
+After applying the changes, you will see how many passwords were assigned successfully.
 
 ## ❓ Frequently asked questions
 

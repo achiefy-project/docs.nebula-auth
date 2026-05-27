@@ -6,9 +6,9 @@ icon: robot
 
 ![MAAC](../../.gitbook/assets/mw-maac.png)
 
-Auto-confirmations let NebulaAuth automatically confirm actions in Steam without manually opening each account.
+Auto-confirmations let NebulaAuth confirm Steam actions automatically, without opening each account manually.
 
-This is convenient if you work with several accounts and want to process sales or trades faster.
+This is useful when you work with several accounts and want to process sales or trades faster.
 
 ***
 
@@ -19,12 +19,12 @@ For each account, you can enable separately:
 * **purchases and sales on the Market**
 * **trades**
 
-These modes are independent of each other. For example, you can enable only sales confirmation, only trade confirmation, or both options at once.
+These modes are independent. For example, you can enable only Market confirmations, only trade confirmations, or both at the same time.
 
 {% hint style="warning" %}
-At the moment, NebulaAuth does not accept trades automatically.
+Currently, NebulaAuth does not accept trades automatically.
 
-The application can only confirm already created or accepted trades.
+The application can only confirm trades that have already been created or accepted.
 {% endhint %}
 
 ***
@@ -37,56 +37,56 @@ Auto-confirmations can be enabled:
 * for the selected group of accounts
 * for all accounts at once
 
-This lets you quickly configure the operating mode both for a separate account and for a large list.
+This lets you quickly configure auto-confirmations for a single account or a large list of accounts.
 
-After restart, all settings are saved, and you do not need to enable auto-confirmations again.
+Settings are saved after restart, so you do not need to enable auto-confirmations again.
 
 ***
 
 ### How it works
 
-After this function is enabled, NebulaAuth periodically checks accounts for actions that require confirmation.
+After this feature is enabled, NebulaAuth periodically checks accounts for actions that require confirmation.
 
-If a confirmation is found, the application will perform it automatically according to the selected settings.
+If a confirmation is found, the application confirms it automatically according to the selected settings.
 
-The check interval is set in the upper part of the window next to the auto-confirmation switches
+The check interval is set at the top of the window next to the auto-confirmation switches.
 
 {% hint style="info" %}
-It is not recommended to set too small an interval for a large number of accounts.\
-If there are many accounts, it is better to increase the check interval or use different proxies to reduce the number of requests to Steam from one IP address.
+Avoid setting a very short interval for a large number of accounts.\
+If you have many accounts, increase the check interval or use different proxies to reduce the number of requests to Steam from a single IP address.
 {% endhint %}
 
 ***
 
 ### Errors and statuses
 
-If errors occur during checking, NebulaAuth displays the account state in the interface, the color changes.
+If errors occur during checks, NebulaAuth shows the account state in the interface by changing its color.
 
 The behavior is as follows:
 
-* first the account becomes **yellow**, this means a temporary problem
+* first, the account becomes **yellow**, which means there is a temporary problem
 * if the error persists and the account cannot recover, it becomes **red**
 
 Usually problems are related to:
 
 * unstable proxy
 * outdated session
-* maintenance on Steam's side, for example Tuesday-Wednesday
+* maintenance on Steam's side, often around Tuesday-Wednesday
 
 If the account stays in an error state for a long time, you can:
 
 * log into the account again
 * restart the timer for this account
 
-This will reset the state and start a repeated check.
+This resets the state and starts another check.
 
 ***
 
 ### After restarting the application
 
-Confirmation settings are saved after restarting NebulaAuth.
+Confirmation settings are saved when NebulaAuth restarts.
 
-All settings are preserved, and the application will continue working in the same mode as before closing.
+All settings are preserved, and the application continues working in the same mode as before it was closed.
 
 ***
 
