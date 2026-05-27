@@ -27,7 +27,7 @@ If a **phone number is not linked** to the account, the transfer is impossible. 
 
 ### 🧭 Transfer process
 
-![Guard transfer View](../../.gitbook/assets/guard-transfer-view.png)
+![Guard transfer View](../../../.gitbook/assets/guard-transfer-view.png)
 
 #### Step 1: Launch the transfer wizard
 

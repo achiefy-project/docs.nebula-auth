@@ -30,7 +30,7 @@ You can receive codes, confirm actions, and manage accounts without a phone, fas
 {% endcolumn %}
 
 {% column %}
-<figure><img src=".gitbook/assets/hero.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/hero.png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

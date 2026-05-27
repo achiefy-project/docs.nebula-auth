@@ -4,7 +4,7 @@ icon: robot
 
 # Автоподтверждения
 
-![MAAC](../.gitbook/assets/mw-maac.png)
+![MAAC](../../.gitbook/assets/mw-maac.png)
 
 Автоподтверждения позволяют NebulaAuth автоматически подтверждать действия в Steam без ручного открытия каждого аккаунта.
 

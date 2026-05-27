@@ -10,7 +10,7 @@ This section is intended to introduce the main functions of NebulaAuth. Here you
 
 Logging in with a Steam Guard code is the standard two-factor authentication in Steam. The code is generated based on the secrets stored in the maFile and updates every 30 seconds.
 
-![Steam Guard code](../.gitbook/assets/steam-guard-code.png)
+![Steam Guard code](../../.gitbook/assets/steam-guard-code.png)
 
 {% hint style="info" %}
 An internet connection is not required to generate codes
@@ -36,7 +36,7 @@ Confirmations appear **only after an action** that requires them, for example se
 4. Confirmation cards will appear below
 5. Click ✔️ (**Confirm**) or ✖️ (**Reject**)
 
-![alt text](../.gitbook/assets/confirmations.png)
+![alt text](../../.gitbook/assets/confirmations.png)
 
 ## 📱 Confirming login on another device
 

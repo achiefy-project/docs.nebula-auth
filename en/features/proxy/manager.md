@@ -2,7 +2,7 @@
 
 The proxy manager opens through Menu **→ Proxy manager**
 
-![Proxy manager](../../.gitbook/assets/proxy-manager.png)
+![Proxy manager](../../../.gitbook/assets/proxy-manager.png)
 
 ***
 

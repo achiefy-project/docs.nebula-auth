@@ -28,7 +28,7 @@ NebulaAuth requires **.NET** to be installed
 1. Go to the [download page](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 2.  Find the **.NET Desktop Runtime 8.0** section.\*
 
-    <figure><img src="../.gitbook/assets/dotnet-download.png" alt="" width="494"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/dotnet-download.png" alt="" width="494"><figcaption></figcaption></figure>
 3. Select and download the **x64** version
 4. Run the installer and complete the installation by following the wizard instructions
 
@@ -57,7 +57,7 @@ To continue launching:
 1. Click "More info"
 2. Click **Run anyway**
 
-<figure><img src="../.gitbook/assets/windows-smart-screen.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/windows-smart-screen.png" alt="" width="563"><figcaption></figcaption></figure>
 
 This is standard Windows behavior for applications without a digital signature and does not indicate the presence of malicious code.
 

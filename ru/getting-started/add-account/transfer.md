@@ -27,7 +27,7 @@ icon: people-arrows
 
 ### 🧭 Процесс переноса
 
-![Guard transfer View](../../.gitbook/assets/guard-transfer-view.png)
+![Guard transfer View](../../../.gitbook/assets/guard-transfer-view.png)
 
 #### Шаг 1: Запуск мастера переноса
 

@@ -10,7 +10,7 @@ icon: shoe-prints
 
 Вход с помощью Steam Guard-кода — это стандартная двухфакторная аутентификация в Steam. Код генерируется на основе секретов, хранящихся в мафайле, и обновляется каждые 30 секунд.
 
-![Steam Guard-код](../.gitbook/assets/steam-guard-code.png)
+![Steam Guard-код](../../.gitbook/assets/steam-guard-code.png)
 
 {% hint style="info" %}
 Для генерации кодов не требуется интернет-соединение
@@ -36,7 +36,7 @@ icon: shoe-prints
 4. Ниже появятся карточки подтверждений
 5. Нажмите на ✔️ (**Подтвердить**) или ✖️ (**Отклонить**)
 
-![alt text](../.gitbook/assets/confirmations.png)
+![alt text](../../.gitbook/assets/confirmations.png)
 
 ## 📱 Подтверждение входа на другом устройстве
 

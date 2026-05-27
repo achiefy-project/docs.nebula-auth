@@ -4,7 +4,7 @@ icon: folders
 
 # Группы аккаунтов
 
-![](../.gitbook/assets/mw-groups.png)
+![](../../.gitbook/assets/mw-groups.png)
 
 Группы помогают объединять аккаунты по назначению и быстрее работать с ними в списке.
 

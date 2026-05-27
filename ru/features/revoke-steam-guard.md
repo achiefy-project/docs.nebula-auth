@@ -4,7 +4,7 @@ icon: user-minus
 
 # Отвязка Steam Guard
 
-![Подтверждение отвязки](../.gitbook/assets/confirm-revoke.png)
+![Подтверждение отвязки](../../.gitbook/assets/confirm-revoke.png)
 
 Отвязка удаляет мобильный аутентификатор Steam с аккаунта.
 

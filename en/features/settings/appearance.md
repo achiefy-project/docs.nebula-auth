@@ -1,6 +1,6 @@
 # Appearance
 
-![Theme settings](../../.gitbook/assets/settings-theme.png)
+![Theme settings](../../../.gitbook/assets/settings-theme.png)
 
 In NebulaAuth, you can customize the appearance of the interface: theme, background, and transparency.
 
@@ -50,7 +50,7 @@ Additional parameters are also available:
 * blur when opening dialog windows, blurs the background when modal windows are opened
 * disable Ripple animation, removes the press effect on interface elements
 
-![Ripple effect demonstration](../../.gitbook/assets/ripple.gif)
+![Ripple effect demonstration](../../../.gitbook/assets/ripple.gif)
 
 ***
 

@@ -10,7 +10,7 @@ This is useful when you need to transfer accounts to another instance of the app
 
 To avoid configuring export again every time, NebulaAuth uses templates.
 
-![Export window](../.gitbook/assets/mafile-export.png)
+![Export window](../../.gitbook/assets/mafile-export.png)
 
 ***
 

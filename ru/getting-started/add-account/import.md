@@ -20,7 +20,7 @@ icon: file-import
 
 Приложение автоматически распознает формат и добавит аккаунты.
 
-![Drag'n'Drop](../../.gitbook/assets/drag-n-drop-demo.png)
+![Drag'n'Drop](../../../.gitbook/assets/drag-n-drop-demo.png)
 
 ***
 
@@ -45,7 +45,7 @@ icon: file-import
 2. Выберите файл `.maFile`
 3. Нажмите **Открыть**
 
-![Mafile import in menu](../../.gitbook/assets/menu-mafile-import.png)
+![Mafile import in menu](../../../.gitbook/assets/menu-mafile-import.png)
 
 ### Дополнительная информация
 

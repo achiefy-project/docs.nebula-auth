@@ -6,7 +6,7 @@ icon: window
 
 После запуска NebulaAuth вы увидите главное окно приложения. Оно разделено на несколько логических частей — каждая отвечает за свою задачу. Ниже разберём их по порядку.
 
-![Главное окно NebulaAuth](../.gitbook/assets/main-window.png)
+![Главное окно NebulaAuth](../../.gitbook/assets/main-window.png)
 
 ***
 
@@ -14,7 +14,7 @@ icon: window
 
 В верхней части окна находится панель с меню и элементами управления.
 
-![Панель управления](../.gitbook/assets/interface-control-panel.png)
+![Панель управления](../../.gitbook/assets/interface-control-panel.png)
 
 ### Меню
 
@@ -100,7 +100,7 @@ icon: window
 
 В левой части окна отображаются все добавленные аккаунты. Каждый аккаунт показывается под своим логином
 
-![Список аккаунтов](../.gitbook/assets/interface-account-list.png)
+![Список аккаунтов](../../.gitbook/assets/interface-account-list.png)
 
 В нижней части списка находится поле поиска. Вы можете искать аккаунты по логину или SteamID (начинается с `76...`).
 
@@ -124,7 +124,7 @@ icon: window
 
 Правая часть окна позволяет взаимодействовать с выбранным аккаунтом.
 
-![Коды и подтверждения](../.gitbook/assets/interface-codes-and-confirmations.png)
+![Коды и подтверждения](../../.gitbook/assets/interface-codes-and-confirmations.png)
 
 ***
 

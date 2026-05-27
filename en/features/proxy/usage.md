@@ -2,7 +2,7 @@
 
 ### Assigning a proxy
 
-![Assigning a proxy](../../.gitbook/assets/mw-set-proxy.png)
+![Assigning a proxy](../../../.gitbook/assets/mw-set-proxy.png)
 
 To assign a proxy to an account:
 

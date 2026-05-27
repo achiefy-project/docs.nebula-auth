@@ -1,6 +1,6 @@
 # Main parameters
 
-![Settings window](../../.gitbook/assets/settings-main.png)
+![Settings window](../../../.gitbook/assets/settings-main.png)
 
 This section contains the main NebulaAuth parameters that affect the behavior of the application.
 
@@ -45,7 +45,7 @@ It is not recommended to disable this option, because many third-party tools exp
 
 Adds a colored indicator to the application icon in the taskbar.
 
-![Taskbar indicator](../../.gitbook/assets/tray-color-indicator.png)
+![Taskbar indicator](../../../.gitbook/assets/tray-color-indicator.png)
 
 This is convenient when working with multiple NebulaAuth windows, it lets you quickly distinguish instances.
 

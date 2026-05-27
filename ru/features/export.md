@@ -10,7 +10,7 @@ icon: file-export
 
 Чтобы не настраивать экспорт каждый раз заново, в NebulaAuth используются шаблоны.
 
-![Окно экспорта](../.gitbook/assets/mafile-export.png)
+![Окно экспорта](../../.gitbook/assets/mafile-export.png)
 
 ***
 

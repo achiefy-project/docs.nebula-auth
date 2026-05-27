@@ -28,7 +28,7 @@ _Linux и macOS официально не поддерживаются, подр
 1. Перейдите на [страницу загрузки](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 2.  Найдите раздел **.NET Desktop Runtime 8.0.**\*
 
-    <figure><img src="../.gitbook/assets/dotnet-download.png" alt="" width="494"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/dotnet-download.png" alt="" width="494"><figcaption></figcaption></figure>
 3. Выберите и скачайте версию **x64**
 4. Запустите установщик и завершите установку, следуя инструкциям мастера
 
@@ -57,7 +57,7 @@ _Linux и macOS официально не поддерживаются, подр
 1. Нажмите "Подробнее"
 2. Нажмите **Выполнить в любом случае**
 
-<figure><img src="../.gitbook/assets/windows-smart-screen.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/windows-smart-screen.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Это стандартное поведение Windows для приложений без цифровой подписи и не указывает на наличие вредоносного кода.
 

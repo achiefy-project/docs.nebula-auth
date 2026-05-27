@@ -20,7 +20,7 @@ The fastest option:
 
 The application will automatically recognize the format and add the accounts.
 
-![Drag'n'Drop](../../.gitbook/assets/drag-n-drop-demo.png)
+![Drag'n'Drop](../../../.gitbook/assets/drag-n-drop-demo.png)
 
 ***
 
@@ -45,7 +45,7 @@ The classic way, suitable for adding a single file:
 2. Select the `.maFile` file
 3. Click **Open**
 
-![Mafile import in menu](../../.gitbook/assets/menu-mafile-import.png)
+![Mafile import in menu](../../../.gitbook/assets/menu-mafile-import.png)
 
 ### Additional information
 

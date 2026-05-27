@@ -4,7 +4,7 @@ icon: robot
 
 # Auto-confirmations
 
-![MAAC](../.gitbook/assets/mw-maac.png)
+![MAAC](../../.gitbook/assets/mw-maac.png)
 
 Auto-confirmations let NebulaAuth automatically confirm actions in Steam without manually opening each account.
 

@@ -4,7 +4,7 @@ icon: folders
 
 # Account groups
 
-![](../.gitbook/assets/mw-groups.png)
+![](../../.gitbook/assets/mw-groups.png)
 
 Groups help combine accounts by purpose and work with them faster in the list.
 

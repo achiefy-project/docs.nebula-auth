@@ -26,7 +26,7 @@ icon: file-medical
 
 ### 🧭 Процесс привязки
 
-![Linker View](../../.gitbook/assets/linker-view.png)
+![Linker View](../../../.gitbook/assets/linker-view.png)
 
 #### Шаг 1: Запуск мастера привязки
 

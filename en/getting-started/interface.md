@@ -6,7 +6,7 @@ icon: window
 
 After launching NebulaAuth, you will see the main application window. It is divided into several logical parts, each responsible for its own task. Below we will go through them in order.
 
-![NebulaAuth main window](../.gitbook/assets/main-window.png)
+![NebulaAuth main window](../../.gitbook/assets/main-window.png)
 
 ***
 
@@ -14,7 +14,7 @@ After launching NebulaAuth, you will see the main application window. It is divi
 
 At the top of the window there is a panel with the menu and controls.
 
-![Control panel](../.gitbook/assets/interface-control-panel.png)
+![Control panel](../../.gitbook/assets/interface-control-panel.png)
 
 ### Menu
 
@@ -100,7 +100,7 @@ If enabled, only those accounts that have auto-confirmations active are displaye
 
 The left side of the window shows all added accounts. Each account is shown under its login
 
-![Account list](../.gitbook/assets/interface-account-list.png)
+![Account list](../../.gitbook/assets/interface-account-list.png)
 
 At the bottom of the list there is a search field. You can search for accounts by login or SteamID, which starts with `76...`.
 
@@ -124,7 +124,7 @@ Right-clicking an account opens a menu:
 
 The right side of the window lets you interact with the selected account.
 
-![Codes and confirmations](../.gitbook/assets/interface-codes-and-confirmations.png)
+![Codes and confirmations](../../.gitbook/assets/interface-codes-and-confirmations.png)
 
 ***
 

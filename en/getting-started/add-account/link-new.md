@@ -26,7 +26,7 @@ More details: [trade-hold.md](../../steam-info/trade-hold.md "mention")
 
 ### 🧭 Linking process
 
-![Linker View](../../.gitbook/assets/linker-view.png)
+![Linker View](../../../.gitbook/assets/linker-view.png)
 
 #### Step 1: Launch the linking wizard
 

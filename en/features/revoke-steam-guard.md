@@ -4,7 +4,7 @@ icon: user-minus
 
 # Removing Steam Guard
 
-![Confirmation of removal](../.gitbook/assets/confirm-revoke.png)
+![Confirmation of removal](../../.gitbook/assets/confirm-revoke.png)
 
 Removing deletes the Steam mobile authenticator from the account.
 
