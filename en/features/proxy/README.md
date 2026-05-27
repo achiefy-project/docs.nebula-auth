@@ -4,19 +4,19 @@ icon: globe
 
 # Working with proxies
 
-NebulaAuth supports the use of proxies in all aspects of working with accounts.
+NebulaAuth supports proxies across account-related operations.
 
 Proxies can be used:
 
 * during authorization
 * when working with Steam Guard
-* when performing operations, trades, confirmations, and so on
+* when performing operations such as trades and confirmations
 
-Supported:
+Supported proxy types:
 
 * **HTTP/HTTPS proxies**
 * **SOCKS proxies**
-* Proxies with authorization, login and password
+* proxies with username and password authentication
 
 ### 📚 More details
 

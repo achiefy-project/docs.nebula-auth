@@ -2,7 +2,7 @@
 
 ![Theme settings](../../../.gitbook/assets/settings-theme.png)
 
-In NebulaAuth, you can customize the appearance of the interface: theme, background, and transparency.
+In NebulaAuth, you can customize the interface appearance: theme, background, and transparency.
 
 ***
 
@@ -26,7 +26,7 @@ You can choose one of the modes:
 
 * standard background
 * custom background
-* solid color, without image
+* solid color, without an image
 
 For a custom background:
 
@@ -45,10 +45,10 @@ You can configure the transparency and visual effects of the interface:
 * brightness, gamma
 * transparency of individual panels
 
-Additional parameters are also available:
+Additional options are also available:
 
-* blur when opening dialog windows, blurs the background when modal windows are opened
-* disable Ripple animation, removes the press effect on interface elements
+* blur when opening dialog windows, which blurs the background behind modal windows
+* disable Ripple animation, which removes the press effect on interface elements
 
 ![Ripple effect demonstration](../../../.gitbook/assets/ripple.gif)
 
@@ -56,7 +56,7 @@ Additional parameters are also available:
 
 #### Reset settings
 
-The reset button returns the visual parameter values to the default ones.
+The reset button restores visual settings to their default values.
 
 The theme and background mode do not change.
 

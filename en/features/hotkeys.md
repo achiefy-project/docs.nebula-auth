@@ -4,9 +4,9 @@ icon: keyboard
 
 # Hotkeys
 
-Some hotkeys are available in NebulaAuth to speed up work.
+NebulaAuth includes several hotkeys to speed up common actions.
 
-At the moment they are not configurable.
+Currently, they cannot be changed.
 
 ***
 
@@ -20,7 +20,7 @@ At the moment they are not configurable.
 
 #### In the account list
 
-Works on the selected account
+These shortcuts work with the selected account.
 
 * `Ctrl+C` — copy login
 * `Ctrl+X` — copy maFile

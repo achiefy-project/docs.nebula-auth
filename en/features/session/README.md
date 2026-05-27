@@ -6,7 +6,7 @@ icon: key
 
 The session is the logged-in state of a Steam account.
 
-It is stored inside the **maFile** and allows actions to be performed without re-entering the password.
+It is stored inside the **maFile** and lets NebulaAuth perform actions without asking for the password again.
 
 ***
 
@@ -14,7 +14,7 @@ It is stored inside the **maFile** and allows actions to be performed without re
 
 After login, NebulaAuth saves the mobile session of the account.
 
-Usually it remains valid for a long time, on average up to several months, so you do not need to enter the password every time.
+It usually stays valid for a long time, often up to several months, so you do not need to enter the password every time.
 
 However, the session can be reset:
 
@@ -26,7 +26,7 @@ However, the session can be reset:
 
 ### If the session has expired
 
-If a session error appears, perform login again:
+If a session error appears, log in again:
 
 1. Select the account
 2. Click **Account → Login**
@@ -40,7 +40,7 @@ After that, the session will be updated and saved in the maFile.
 
 You can enable password saving.
 
-In that case, NebulaAuth will be able to restore the session automatically without your involvement.
+In that case, NebulaAuth can restore the session automatically without your involvement.
 
 The password is stored in encrypted form.
 
@@ -50,11 +50,11 @@ More details: [saving-password.md](saving-password.md "mention")
 
 ### After transfer from SDA
 
-After importing a maFile from Steam Desktop Authenticator, all accounts will show the error **"Session fully expired"**.
+After importing a maFile from Steam Desktop Authenticator, all accounts will show **"Session fully expired"**.
 
 This is normal.
 
-After the transfer, you need to **log in once** for each account.
+After the import, you need to **log in once** for each account.
 
 ***
 
@@ -68,7 +68,7 @@ Steam uses two types of sessions:
 The **"Refresh session"** button refreshes the short session if possible.
 
 {% hint style="info" %}
-In new versions of NebulaAuth this is usually not required, the application tries to restore the session automatically.
+In newer versions of NebulaAuth, this is usually not required because the application tries to restore the session automatically.
 {% endhint %}
 
 ***
@@ -91,14 +91,14 @@ After that, you need to log into NebulaAuth again.
 
 Steam uses two types of sessions:
 
-long-lived, main short-lived, working
+long-lived, main; short-lived, working
 
 The "Refresh session" button tries to refresh the short session without re-entering the password.
 
 {% hint style="info" %}
-In most cases, you do not need to use this button, NebulaAuth automatically tries to restore the session.
+In most cases, you do not need to use this button because NebulaAuth automatically tries to restore the session.
 
-If an error occurs, it is easier to perform Account → Login.
+If an error occurs, it is easier to use Account → Login.
 {% endhint %}
 
 </details>

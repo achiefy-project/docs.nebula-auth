@@ -4,7 +4,7 @@ icon: file-lines
 
 # What is a maFile
 
-**maFile** is a file that stores access to your account's Steam Guard.
+A **maFile** is a file that stores the data needed to use your account's Steam Guard.
 
 It is needed for:
 
@@ -14,9 +14,9 @@ It is needed for:
 
 ***
 
-### How NebulaAuth works with maFile
+### How NebulaAuth works with maFiles
 
-When started, NebulaAuth automatically reads all maFiles from the `maFiles` folder.
+When it starts, NebulaAuth automatically reads all maFiles from the `maFiles` folder.
 
 After that, they are displayed in the **"Accounts"** section inside the interface.
 
@@ -39,14 +39,14 @@ NebulaAuth uses several folders:
 ### Security
 
 {% hint style="danger" %}
-Anyone who has access to the maFile can use your Steam Guard.
+Anyone with access to a maFile can use your Steam Guard.
 
 Do not share these files with outsiders.
 {% endhint %}
 
 It is recommended to:
 
-* store maFile in a safe place
+* store maFiles in a safe place
 * make backup copies
 * save the RCode, recovery code, separately
 
@@ -54,7 +54,7 @@ It is recommended to:
 
 ### More details
 
-In the next section, you can learn about the technical information on the maFile structure
+The next section covers technical information about the maFile structure.
 
 {% content-ref url="mafile-technical.md" %}
 [mafile-technical.md](mafile-technical.md)

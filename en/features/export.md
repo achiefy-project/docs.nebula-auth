@@ -4,11 +4,11 @@ icon: file-export
 
 # Exporting maFiles
 
-In NebulaAuth, you can quickly export a maFile to the required folder by specifying the account list and selecting the necessary parameters.
+In NebulaAuth, you can quickly export maFiles to a selected folder by providing an account list and choosing the required options.
 
 This is useful when you need to transfer accounts to another instance of the application, make a backup, or prepare files for use in other tools.
 
-To avoid configuring export again every time, NebulaAuth uses templates.
+To avoid configuring the same export settings every time, NebulaAuth uses templates.
 
 ![Export window](../../.gitbook/assets/mafile-export.png)
 
@@ -20,20 +20,20 @@ A template is a preset that defines:
 
 * which fields to include in the export
 * where to save the files
-* how to form file names
+* how to name the files
 
-You can create and save templates with your own names for convenience.
+You can create templates and save them under your own names.
 
 ***
 
-### How to perform export
+### How to export maFiles
 
 1. Open **Menu → Other → Export**
-2. Select the template or required fields
-3. Specify the account list, logins or SteamID, one per line
+2. Select a template or choose the required fields
+3. Enter the account list, using logins or SteamIDs, one per line
 4. Select the destination folder
 5. Start the export
-6. The found accounts will be copied to the selected folder
+6. Matching accounts will be copied to the selected folder
 
 ***
 
@@ -47,7 +47,7 @@ When configuring the template, you can choose which data to include in the maFil
 * NebulaAuth fields, `Proxy`, `Group`, `Password`
 * file name format, by SteamID or by login
 
-To learn what exactly is exported and why this field is needed, hover over the field and wait for the tooltip.
+To see exactly what is exported and why a field is needed, hover over it and wait for the tooltip.
 
 More details: [mafile-technical.md](../steam-info/mafile/mafile-technical.md "mention")
 
@@ -55,9 +55,9 @@ More details: [mafile-technical.md](../steam-info/mafile/mafile-technical.md "me
 
 #### Restrictions
 
-* export to NebulaAuth folders, `maFiles`, `maFiles_removed`, `maFiles_backup`, is prohibited
+* exporting to NebulaAuth folders, `maFiles`, `maFiles_removed`, and `maFiles_backup`, is not allowed
 * if a file with the same name already exists, it will NOT be overwritten
-* exported files without the main fields will not work in NebulaAuth, because it requires all main data to be present for correct operation
+* exported files without the main fields will not work in NebulaAuth, because all main data is required for correct operation
 
 ***
 
@@ -73,20 +73,20 @@ This is a file that contains only:
 Such a maFile:
 
 * lets you generate login codes
-* **does not give access to confirmations and Steam Guard**
+* **does not provide access to confirmations or full Steam Guard management**
 
 {% hint style="danger" %}
 **Even a truncated maFile is not completely safe.**
 
 Do not pass such files to people you do not trust.\
-They can be used for unwanted activity, for example login to the account, spam, or other actions.
+They can be used for unwanted activity, such as logging into the account, spam, or other actions.
 {% endhint %}
 
 ***
 
 ### Export result
 
-After completion, you receive a report:
+After completion, you receive a report showing:
 
 * how many accounts were exported
 * how many were not found

@@ -4,13 +4,13 @@ icon: file-medical
 
 # Linking an account
 
-If mobile Steam Guard has never been enabled on your Steam account, or you have disabled it, you can link a new Steam Guard directly through **NebulaAuth**.
+If mobile Steam Guard has never been enabled on your Steam account, or if you have disabled it, you can link a new Steam Guard directly through **NebulaAuth**.
 
 ***
 
 ### ✅ Requirements
 
-Before starting, make sure that:
+Before you start, make sure that:
 
 * the account **does not have an active mobile Steam Guard**
 * you have **access to the email** linked to the account
@@ -19,7 +19,7 @@ Before starting, make sure that:
 {% hint style="info" %}
 **Trade hold**
 
-After linking a new Steam Guard, your account will start a trade hold countdown of **7 days**. For new accounts, the delay will be up to **15 days**.
+After you link a new Steam Guard, a **7-day** trade hold starts on the account. For new accounts, the delay can be up to **15 days**.
 
 More details: [trade-hold.md](../../steam-info/trade-hold.md "mention")
 {% endhint %}
@@ -31,7 +31,7 @@ More details: [trade-hold.md](../../steam-info/trade-hold.md "mention")
 #### Step 1: Launch the linking wizard
 
 1. In the top menu, click **Account → Link**
-2. The linking wizard window will open
+2. The linking wizard opens
 
 ***
 
@@ -49,18 +49,18 @@ Click **Continue**.
 
 #### Step 3: Code from email, if email Guard is enabled
 
-If email Steam Guard is enabled on the account, a confirmation code will be sent to your email.
+If email Steam Guard is enabled on the account, Steam will send a confirmation code to your email.
 
 1. Enter the code
 2. Click **Continue**
 
-If email Guard was not enabled, this step is skipped automatically.
+If email Guard is not enabled, this step is skipped automatically.
 
 ***
 
 #### Step 4: Phone number, optional
 
-Steam may ask you to enter a phone number. At the moment, **this is not required**.
+Steam may ask you to enter a phone number. Currently, **this is not required**.
 
 Possible options:
 
@@ -76,7 +76,7 @@ The next actions depend on the previous step:
 * if you entered a phone number, enter the **SMS code**
 * if the number was skipped, enter the **code from email**
 
-If the phone number **had already been linked to the account before**, the confirmation code always arrives **by SMS**, even if the phone number step was skipped.
+If the phone number **was already linked to the account before**, the confirmation code will arrive **by SMS**, even if you skipped the phone number step.
 
 ***
 
@@ -84,24 +84,24 @@ If the phone number **had already been linked to the account before**, the confi
 
 Linking is complete. The screen will display:
 
-* **R-code (Revocation Code)** Write it down and store it in a safe place _(best of all on paper)_
-* **File name** — under this name the maFile is saved in the `maFiles` folder
+* **R-code (Revocation Code)** Write it down and store it in a safe place _(preferably on paper)_
+* **File name** — the name used to save the maFile in the `maFiles` folder
 
 {% hint style="info" %}
-NebulaAuth automatically creates a backup of the maFile in the `maFiles_backup` folder. This is additional protection in case the main file is lost or the linking process fails
+NebulaAuth automatically creates a backup of the maFile in the `maFiles_backup` folder. This provides extra protection if the main file is lost or the linking process fails.
 {% endhint %}
 
-The maFile is automatically added to the account list. Now you can receive Guard codes and, after the temporary trade ban, begin confirming item actions.
+The maFile is automatically added to the account list. You can now generate Guard codes and, after the temporary trade hold ends, confirm item actions.
 
 ### ⚠️ What should I do if an error occurs?
 
-Sometimes the linking process may end with an error. The most common messages are:
+Sometimes the linking process may fail with an error. The most common messages are:
 
 * `BadConfirmationCode`
 * `InvalidState`
-* "The code did not fit"
+* "The code did not match"
 
-This is a **known bug on Steam's side** and is not an error of our application.
+This is a **known issue on Steam's side**, not an error in NebulaAuth.
 
 ***
 
@@ -109,7 +109,7 @@ This is a **known bug on Steam's side** and is not an error of our application.
 
 _Follow the steps exactly_
 
-If the error appears, perform the steps **strictly in order**:
+If this error appears, follow the steps **strictly in order**:
 
 1. **Start the linking process again**
 2. Enter the login and password
@@ -119,7 +119,7 @@ If the error appears, perform the steps **strictly in order**:
 
 Then two scenarios are possible:
 
-**Scenario A: An error appeared** If any error appears, proceed to step 6
+**Scenario A: An error appears** If any error appears, proceed to step 6
 
 **Scenario B: SMS code request** If the system requests an SMS:
 
@@ -127,29 +127,29 @@ Then two scenarios are possible:
 * Close the linking window
 * Wait 20 minutes for Steam to reset the state
 
-6. After that, the problem should disappear
-7. Repeat the linking process in the normal way
+6. After that, the problem should be gone
+7. Repeat the normal linking process
 
 {% hint style="warning" %}
 After **3-5 failed attempts**, Steam may block linking for a period from **1 day to a week**.
 
-If an error appears, **do not continue blindly**, use the instructions above immediately.
+If an error appears, **do not keep retrying blindly**. Use the instructions above right away.
 {% endhint %}
 
 ***
 
 #### Why does this work?
 
-This is a known peculiarity in Steam logic. When you go through the process with a phone number, Steam removes the internal "lock", and subsequent linking becomes possible.
+This is a known quirk in Steam's logic. When you go through the process with a phone number, Steam clears the internal "lock", and the next linking attempt can proceed normally.
 
 ### ✅ Linking completed, what's next?
 
-After linking, the account will appear in the list on the left.
+After linking, the account appears in the list on the left.
 
-In the following sections, you can learn about the main features of the application:
+The following sections cover the main application features:
 
 * [interface.md](../interface.md "mention") — the main interface elements and their purpose
-* [first-steps.md](../first-steps.md "mention") — a quick start for receiving codes and confirming actions
+* [first-steps.md](../first-steps.md "mention") — a quick start for generating codes and confirming actions
 
 ### ❓ Frequently asked questions
 
@@ -165,7 +165,7 @@ If you want to link Guard again:
 
 1. Disable the current Steam Guard
 2. Wait until the cooldown ends, **15 days**
-3. After that, perform the linking through NebulaAuth
+3. After that, link Steam Guard through NebulaAuth
 
 </details>
 
@@ -176,7 +176,7 @@ If you want to link Guard again:
 Possible reasons:
 
 * the phone number is already linked to the account
-* the number was entered earlier, Steam may remember it for **20-30 minutes**
+* the number was entered earlier, and Steam may remember it for **20-30 minutes**
 
 In that case:
 
@@ -191,11 +191,11 @@ In that case:
 
 Steam limits the number of linking attempts.
 
-After several failed attempts, a temporary block may be set:
+After several failed attempts, Steam may apply a temporary block:
 
 * from **24 hours** to **several days**
 
-It is recommended to:
+We recommend that you:
 
 * stop trying
 * wait
@@ -209,7 +209,7 @@ It is recommended to:
 
 Some accounts may be more sensitive to this Steam behavior.
 
-In this case, it is recommended to:
+In this case, we recommend that you:
 
 1. Go to the official Steam website through a browser
 2. Link the phone number manually

@@ -4,17 +4,17 @@ icon: people-arrows
 
 # Transferring Steam Guard
 
-If Steam Guard is activated on a smartphone or another device, you can transfer it to NebulaAuth without needing to disable Steam Guard. In that case, a short 2-day delay will be applied _(More details:_ [trade-hold.md](../../steam-info/trade-hold.md "mention")_)_
+If Steam Guard is active on a smartphone or another device, you can transfer it to NebulaAuth without disabling Steam Guard first. In this case, a short 2-day delay is applied _(More details:_ [trade-hold.md](../../steam-info/trade-hold.md "mention")_)_
 
-It is important to understand that this is not copying, but specifically a transfer. After the process is complete, Steam Guard will stop working on the previous device.
+It is important to understand that this is a transfer, not a copy. After the process is complete, Steam Guard stops working on the previous device.
 
 The transfer is performed through the official Steam mechanism.
 
 ### ✅ Requirements
 
-Before starting, make sure that:
+Before you start, make sure that:
 
-* mobile Steam Guard is active on the account, in the Steam mobile app or another application
+* mobile Steam Guard is active on the account, either in the Steam mobile app or another application
 * a **phone number is linked** to the account
 * you have **access to the phone** to receive SMS
 * you know the **login and password** of the account
@@ -32,7 +32,7 @@ If a **phone number is not linked** to the account, the transfer is impossible. 
 #### Step 1: Launch the transfer wizard
 
 1. In the top menu, click **Account → Transfer Steam Guard**
-2. The transfer wizard window will open
+2. The transfer wizard opens
 
 ***
 
@@ -57,7 +57,7 @@ Steam will request the current Guard code:
 3. Enter the code in NebulaAuth
 4. Click **Continue**
 
-> You can also confirm the login on the mobile device.\
+> You can also approve the login on the mobile device.\
 > In this case, click **Continue** without entering the code.
 
 ***
@@ -69,7 +69,7 @@ An SMS with a confirmation code will be sent to the linked phone number.
 1. Enter the SMS code
 2. Click **Continue**
 
-Several attempts are available. If the code does not fit, the application will prompt you to enter a new one.
+You have several attempts. If the code does not match, the application will ask you to enter a new one.
 
 ***
 
@@ -77,27 +77,27 @@ Several attempts are available. If the code does not fit, the application will p
 
 The transfer is complete. The screen will display:
 
-* **R-code (Revocation Code)** Write it down and store it in a safe place _(best of all on paper)_
+* **R-code (Revocation Code)** Write it down and store it in a safe place _(preferably on paper)_
 * **SteamID** — the account identifier
 
-The maFile has been created and added to the account list. Now you can receive Guard codes and confirm actions directly from your computer.
+The maFile has been created and added to the account list. You can now generate Guard codes and confirm actions directly from your computer.
 
 ### 🔄 What happens to Guard on the phone?
 
 After the transfer:
 
 * Guard on the phone **stops working**
-* old codes will no longer fit
+* old codes will no longer work
 * the new Guard works only in NebulaAuth, or in another application if you copy the new maFile
 
 ### ✅ Transfer completed, what's next?
 
-After the transfer, the account will appear in the list on the left.
+After the transfer, the account appears in the list on the left.
 
-In the following sections, you can learn about the main features of the application:
+The following sections cover the main application features:
 
 * [interface.md](../interface.md "mention") — the main interface elements and their purpose
-* [first-steps.md](../first-steps.md "mention") — a quick start for receiving codes and confirming actions
+* [first-steps.md](../first-steps.md "mention") — a quick start for generating codes and confirming actions
 
 ### ❓ Frequently asked questions
 
@@ -119,9 +119,9 @@ No.
 
 Trade holds run in parallel and do not stack.
 
-If the account already has a hold, for example 15 days, the transfer will not increase it, but it also will not reduce the total period.
+If the account already has a hold, for example 15 days, the transfer will not increase it, but it also will not shorten the total period.
 
-➡️ As a result, the hold with the longest duration applies
+➡️ As a result, the longest active hold applies
 
 More details: [**Trade hold**](../../steam-info/trade-hold.md)
 

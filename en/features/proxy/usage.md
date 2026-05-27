@@ -6,12 +6,12 @@
 
 To assign a proxy to an account:
 
-1. Select the required account
-2. In the **"Proxy"** field at the top, select the required proxy from the dropdown list
+1. Select the account
+2. In the **"Proxy"** field at the top, select the proxy from the dropdown list
 
 When switching between accounts, you will see the assigned proxy.
 
-The proxy is stored inside the **maFile**, so when transferring the file between different NebulaAuth instances, it will also be preserved.
+The proxy is stored inside the **maFile**, so it is preserved when you move the file between different NebulaAuth instances.
 
 ***
 
@@ -19,15 +19,15 @@ The proxy is stored inside the **maFile**, so when transferring the file between
 
 The proxy is applied when the account works with:
 
-* authorization and session
+* authorization and sessions
 * confirmations
 * auto-confirmations
 
 ***
 
-### Removing a proxy from an account
+### Unattaching a proxy from an account
 
-To unbind a proxy from an account:
+To unattach a proxy from an account:
 
 **Method 1:**
 
@@ -37,9 +37,9 @@ To unbind a proxy from an account:
 **Method 2:**
 
 1. Right-click the account
-2. Select **"Unbind proxy"**
+2. Select **"Unattach proxy"**
 
-After that, the account will use the default proxy, if it is set, or work directly.
+After that, the account uses the default proxy if one is set, or connects directly.
 
 ***
 
@@ -51,7 +51,7 @@ If the account does not have its own proxy assigned, the default proxy is used.
 account proxy → default proxy → direct
 ```
 
-This lets you define common network behavior and avoid working without a proxy.
+This lets you define common network behavior and avoid direct connections.
 
 ***
 
@@ -61,7 +61,7 @@ When **linking an account** or **transferring Steam Guard**, you can select a pr
 
 The selected proxy:
 
-* is used while the operation is being performed
+* is used while the operation is running
 * is automatically saved in the created maFile
 
 ***
@@ -70,5 +70,5 @@ The selected proxy:
 
 The interface displays proxy states:
 
-* red, if the proxy is used from the account but is missing in the manager
-* yellow, if the account works through the default proxy
+* red, if the account has a proxy assigned but that proxy is missing from the manager
+* yellow, if the account is using the default proxy

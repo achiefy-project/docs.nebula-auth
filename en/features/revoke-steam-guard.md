@@ -6,32 +6,32 @@ icon: user-minus
 
 ![Confirmation of removal](../../.gitbook/assets/confirm-revoke.png)
 
-Removing deletes the Steam mobile authenticator from the account.
+Removing Steam Guard deletes the mobile authenticator from the account.
 
-After the operation is completed, Steam Guard stops working, and a trade hold is applied to the account.
+After the operation completes, Steam Guard stops working and a trade hold is applied to the account.
 
 ***
 
-### Condition before launch
+### Before you start
 
-Removing requires a **revocation code (RCode)**.
+Removal requires a **revocation code (RCode)**.
 
 It is automatically stored in the **maFile** when linking or transferring Steam Guard.
 
-If the RCode is missing, removing through NebulaAuth will not be possible.
+If the RCode is missing, NebulaAuth cannot remove Steam Guard.
 
 ***
 
-### How to perform removal
+### How to remove Steam Guard
 
 1. Select the account
 2. Click **Account → Remove**
 3. Confirm the action
 
-If the operation is successful:
+If the operation succeeds:
 
 * Steam Guard will be removed
-* a hold on trades and the market will be applied, **15 days**
+* a **15-day** hold is applied to trades and the Market
 * the maFile will be moved to the `maFiles_removed` folder
 
 More details: [Trade hold](../steam-info/trade-hold.md)
@@ -43,8 +43,8 @@ More details: [Trade hold](../steam-info/trade-hold.md)
 Try:
 
 * checking the account session
-* performing **Login Again**
-* repeating the removal
+* using **Login Again**
+* trying the removal again
 
 If the maFile is lost or the RCode in it is invalid, contact Steam Support to restore access to the account.
 
@@ -61,9 +61,9 @@ When deleting:
 
 **Important**
 
-This is **not removing Steam Guard**.
+This **does not remove Steam Guard**.
 
-If the account is still linked, it can be restored by importing the maFile back.
+If Steam Guard is still linked, you can restore the account in NebulaAuth by importing the maFile again.
 
 ***
 
@@ -91,7 +91,7 @@ The button becomes active only if `revocation_code` is present in the selected m
 
 No.
 
-An active account session is required for removal through NebulaAuth.
+An active account session is required to remove Steam Guard through NebulaAuth.
 
 If there is no session, use the RCode through "Forgot password" on the Steam website or contact support.
 
@@ -103,7 +103,7 @@ If there is no session, use the RCode through "Forgot password" on the Steam web
 
 Contact Steam Support.
 
-To restore access, you will need to confirm ownership of the account, purchases, payments, and so on.
+To restore access, you will need to prove account ownership using purchases, payments, and other account details.
 
 </details>
 
@@ -114,6 +114,6 @@ To restore access, you will need to confirm ownership of the account, purchases,
 It depends on the type of block.
 
 * with a trade ban or VAC ban, yes
-* with a red table warning, no, no account data can be changed.
+* with a red table warning, no, because account data cannot be changed.
 
 </details>
